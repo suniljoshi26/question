@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import "./App.css";
+import { FilterQ } from "./FilterQ";
 import ReduceQ from "./reduceQ";
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         </div>
       ))}
       <ReduceQ />
+      <FilterQ />
     </div>
   );
 }
